@@ -5,4 +5,5 @@ function solution(num) {
     }else if(num%2===1||num%2===-1){
         return "Odd"
     }
+//    return num % 2 ? "Odd" : "Even"
 }
