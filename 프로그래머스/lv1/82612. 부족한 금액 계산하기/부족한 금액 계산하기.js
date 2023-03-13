@@ -1,7 +1,7 @@
   function solution(price, money, count) {
-        let answer = 0;
+        let total = 0;
         for (let i = 1; i <= count; i++) {
-          answer += price * i;
+          total += price * i;
         }
-        return answer > money ? answer - money : 0;
+        return total > money ? total - money : 0;
       }
